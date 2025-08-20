@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+
 import { TrendingUp, TrendingDown, ShoppingCart, DollarSign, BarChart3, Users } from 'lucide-react';
 
 interface Coin {
