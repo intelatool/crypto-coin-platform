@@ -22,7 +22,7 @@ interface TradingMarketProps {
 }
 
 export const TradingMarket: React.FC<TradingMarketProps> = ({ coins, onTrade }) => {
-  const [selectedCoin, setSelectedCoin] = useStateuseStateuseState<Coin | null>(null);
+   const [selectedCoin, setSelectedCoin] = useStateuseStateuseState<Coin | null>(null);
   const [tradeAmount, setTradeAmount] = useState('');
   const [tradeType, setTradeType] = useStateuseStateuseState<'buy' | 'sell'>('buy');
   const [sortBy, setSortBy] = useStateuseStateuseStateuseStateuseState<'price' | 'volume' | 'change'>('volume');
